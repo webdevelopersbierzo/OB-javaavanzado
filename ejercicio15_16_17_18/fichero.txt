@@ -1,0 +1,5 @@
+hola
+Soy el fichero.txt
+si estas leyendo esto es por que estas accediendo al fichero
+
+chao
