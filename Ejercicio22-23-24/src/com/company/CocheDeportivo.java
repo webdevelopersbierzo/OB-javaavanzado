@@ -1,6 +1,6 @@
 package com.company;
 
-public class CocheDeportivo implements Coche{
+public class CocheDeportivo extends Coche{
     int velocidad;
     boolean encendido = false;
     int numeroOcupantes = 2;

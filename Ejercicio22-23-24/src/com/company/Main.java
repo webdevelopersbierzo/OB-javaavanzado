@@ -11,7 +11,7 @@ public class Main {
 //    System.out.println(coche1);
 
         // apartado 2
-        Coche cocheFerrari = new CocheDeportivo();
+        Coche cocheFerrari = new CocheElectrico());
         cocheFerrari.encenderCoche();
         cocheFerrari.aumentarVelocidad();
         cocheFerrari.aumentarVelocidad();

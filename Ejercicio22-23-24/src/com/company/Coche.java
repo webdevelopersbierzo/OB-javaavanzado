@@ -1,12 +1,12 @@
 package com.company;
 
-public interface Coche {
+abstract class Coche {
 
 
-    public void aumentarVelocidad();
+    abstract void aumentarVelocidad();
 
-    public void disminuirVelocidad();
+    abstract void disminuirVelocidad();
 
-    public boolean encenderCoche();
+    abstract boolean encenderCoche();
 }
 
