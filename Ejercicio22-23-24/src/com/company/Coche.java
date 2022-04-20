@@ -1,28 +1,12 @@
 package com.company;
 
-public class Coche{
-    public int velocidad;
-    public boolean encendido= false;
+public interface Coche {
 
-    public void aumentarVelocidad(){
-        velocidad+=15;
-    }
-    public void disminuirVelocidad(){
-        velocidad--;
-    }
-    public boolean encenderCoche(){
-        encendido= true;
-        return encendido;
-    }
 
-    public Coche() {
-    }
+    public void aumentarVelocidad();
 
-    @Override
-    public String toString() {
-        return "Coche{" +
-                "velocidad=" + velocidad +
-                ", encendido=" + encendido +
-                '}';
-    }
+    public void disminuirVelocidad();
+
+    public boolean encenderCoche();
 }
+
